@@ -2,7 +2,8 @@
 This application was just created for a little practise. I'am still pretty new to JavaScript. So this was a good exercise.
 The original author is **Max Sandelin**.
 His Youtube channel is:
-[Max Sandelin](https://www.youtube.com/channel/UCr1BiYXeVfpWRCkS0MGjYkQ)
+
+[Max Sandelin](https://www.youtube.com/channel/UCr1BiYXeVfpWRCkS0MGjYkQ).
 ___
 ## Technologies
 The technologies used are:
