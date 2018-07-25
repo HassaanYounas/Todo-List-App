@@ -1,0 +1,155 @@
+body {
+	background-color: #e5e5e5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	margin: auto;
+	margin-top: 25px;
+	width: 95%;
+}
+
+svg {
+	cursor: pointer;
+}
+
+header {
+	padding: 15px;
+	background-color: #25b99a;
+	width: 100%;
+	height: 80px; 
+	box-shadow: 0px 1px 10px #bbb;
+}
+
+header > input {
+	padding-right: 55px;
+	text-indent: 10px;
+	font-size: 19px;
+	font-family: 'Montserrat', sans-serif;
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 5px; 
+	border-bottom-left-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+	z-index: 10;
+}
+
+header > input::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #ddd;
+}
+
+header > button {
+	outline: none;
+	cursor: pointer;
+	background-color: #fff;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 15px;
+	right: 15px;
+	border-radius: 50%;
+	border: none;
+	padding: 14px;
+	transition: 0.2s all;
+}
+
+header > button:hover {
+	background-color: #ddd;
+}
+
+.cards {
+	box-shadow: 0 0 3px #bbb;
+	border-radius: 5px;
+	margin-top: 15px;
+	background-color: #fff;
+	padding: 15px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.cards > h3 {
+	font-size: 17px;
+	color: #111;
+}
+
+.cards > p {
+	font-size: 15px;
+	margin-top: 15px;
+	text-align: center;
+	color: #999;
+}
+
+.tasks, .completed {
+	border: 0.8px solid #bbb;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.tasks {
+	display: grid;
+	grid-template-columns: 70% 15% 15%;
+}
+
+.text > p {
+	display: list-item;
+    list-style-type: disc;
+    list-style-position: inside; 
+	padding: 10px;
+}
+
+.deleteIcon, .tickIcon {
+	border-left: 1px solid #ccc;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.tick, .delete, .remove {
+	transition: 0.2s all;
+}
+
+.tick:hover {
+	fill: #0f9150;
+}
+
+.delete:hover {
+	fill: red;
+}
+
+.removeIcon {
+	border-left: 1px solid #ccc;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.remove:hover {
+	fill: #000;
+}
+
+.completed {
+	display: grid;
+	grid-template-columns: 90% 10%;
+}
+
+hr {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 60%;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #25b99a;
+	position: fixed;
+	bottom: 0;
+	height: 8px;
+	width: 100%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Hassaan Younas">
+  <meta name="keywords" content="hassaan, younas, hassaan younas, air university">
+  <meta name="description" content="Hassaan Younas portfolio">
+  <meta name="robots" content="follow">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" type="image/png" href="Images/favicon.ico"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/reset.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/media-queries.css">
+  <title>To-do List</title>
+</head>
+
+<body> 
+  <!-- Top header that includes the input field and add button -->
+  <header>
+    <input type="text" id="item" placeholder="Enter a task...">
+    <button type="submit" id="add-btn">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve">
+        <line style="fill:none;stroke:#25b99a;stroke-width:4;stroke-miterlimit:10;" x1="21" y1="0" x2="21" y2="42"/>
+        <line style="fill:none;stroke:#25b99a;stroke-width:4;stroke-miterlimit:10;" x1="42" y1="21" x2="0" y2="21"/>
+      </svg>
+    </button>
+  </header>
+  
+  <div class="container">
+    <!-- List of tasks to be completed -->
+    <div class="cards" id="to-do">
+      <h3>To-do List:</h3>
+      <p id="noTask">No tasks to complete.</p>
+    </div>
+    
+    <!-- Separation between the divs -->
+    <hr>
+  
+    <!-- List of tasks completed -->
+    <div class="cards" id="completed">
+      <h3>Completed:</h3>
+      <p id="noneComplete">No tasks have been completed.</p>
+    </div>
+    <hr>
+  </div>
+
+  <!-- Small line at the bottom -->
+  <footer></footer>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="JavaScript/main.js"></script>
+</body>
+
+</html>
