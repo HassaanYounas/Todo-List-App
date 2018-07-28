@@ -10,6 +10,7 @@ The technologies used are:
 * HTML
 * CSS
 * JavaScript
+
 No libraries or frameworks have been used.
 ___
 ## About the App
