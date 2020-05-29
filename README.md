@@ -1,4 +1,4 @@
-# Todo-List-App
+# Todo List Application
 This application was just created for a little practise. I'am still pretty new to JavaScript. So this was a good exercise.
 The original author is **Max Sandelin**.
 His Youtube channel is:
